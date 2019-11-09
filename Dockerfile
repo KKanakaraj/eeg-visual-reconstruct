@@ -4,7 +4,7 @@ ENV LANG C.UTF-8
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-RUN pip install keras uproot jupyter jupyterhub jupyterlab matplotlib sklearn tables
+RUN pip install keras uproot jupyter  jupyterlab matplotlib sklearn tables
 
 RUN apt-get update && \
     apt-get install -y git debconf-utils && \
